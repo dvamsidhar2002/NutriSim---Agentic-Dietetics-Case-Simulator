@@ -1,0 +1,404 @@
+.case-simulation-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 40px 20px;
+}
+
+/* Difficulty Selector */
+.difficulty-selector {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.difficulty-selector h1 {
+  text-align: center;
+  color: #667eea;
+  margin-bottom: 10px;
+}
+
+.difficulty-selector > p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.difficulty-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.difficulty-card {
+  background: #f8f9fa;
+  border: 3px solid transparent;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.difficulty-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+}
+
+.difficulty-card.selected {
+  border-color: #667eea;
+  background: linear-gradient(135deg, #667eea15, #764ba215);
+}
+
+.difficulty-icon {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.difficulty-card h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.difficulty-card p {
+  color: #666;
+  font-size: 14px;
+}
+
+.generate-case-btn {
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 15px;
+}
+
+.generate-case-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.generate-case-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.back-btn {
+  width: 100%;
+  padding: 12px;
+  background: transparent;
+  color: #667eea;
+  border: 2px solid #667eea;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+  background: #667eea;
+  color: white;
+}
+
+/* Case Display */
+.case-display {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.case-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.case-header h2 {
+  color: #333;
+  margin: 0;
+}
+
+.difficulty-badge {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.case-content {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.case-content pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+}
+
+.answer-section h3 {
+  color: #667eea;
+  margin-bottom: 15px;
+}
+
+.answer-section ul {
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.answer-textarea {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  resize: vertical;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.answer-textarea:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.submit-btn,
+.cancel-btn,
+.new-case-btn,
+.dashboard-btn {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-btn,
+.new-case-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.submit-btn:hover:not(:disabled),
+.new-case-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.submit-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.cancel-btn,
+.dashboard-btn {
+  background: #f0f0f0;
+  color: #333;
+}
+
+.cancel-btn:hover,
+.dashboard-btn:hover {
+  background: #e0e0e0;
+}
+
+/* Evaluation Display */
+.evaluation-display {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.evaluation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.evaluation-header h2 {
+  color: #333;
+  margin: 0;
+}
+
+.score-badge {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.score-number {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.score-label {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.evaluation-content {
+  margin-bottom: 30px;
+}
+
+.eval-section {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.eval-section h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.eval-section.correct h3 {
+  color: #28a745;
+}
+
+.eval-section.missing h3 {
+  color: #ffc107;
+}
+
+.eval-section.incorrect h3 {
+  color: #dc3545;
+}
+
+.eval-section.feedback h3,
+.eval-section.reasoning h3,
+.eval-section.questions h3 {
+  color: #667eea;
+}
+
+.eval-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.eval-section ul li {
+  padding: 10px 0;
+  padding-left: 25px;
+  position: relative;
+  line-height: 1.6;
+  color: #333;
+}
+
+.eval-section ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.eval-section.correct ul li::before {
+  color: #28a745;
+}
+
+.eval-section.missing ul li::before {
+  color: #ffc107;
+}
+
+.eval-section.incorrect ul li::before {
+  color: #dc3545;
+}
+
+.eval-section p {
+  color: #333;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.eval-section pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+}
+
+.reasoning-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .case-simulation-container {
+    padding: 20px 10px;
+  }
+
+  .difficulty-selector,
+  .case-display,
+  .evaluation-display {
+    padding: 20px;
+  }
+
+  .difficulty-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+  }
+
+  .case-header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .evaluation-header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+}

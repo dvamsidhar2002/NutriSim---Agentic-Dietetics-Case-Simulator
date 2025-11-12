@@ -1,0 +1,197 @@
+[
+  {
+    "name": "Priya Sharma",
+    "age": 42,
+    "gender": "Female",
+    "weight": 98.5,
+    "height": 1.62,
+    "diagnosis": "Obesity (Class II)",
+    "medical_history": [
+      "Type 2 Diabetes Mellitus (diagnosed 5 years ago, controlled with oral medication)",
+      "Hypertension (diagnosed 3 years ago, controlled with medication)",
+      "Dyslipidemia (elevated LDL cholesterol, managed with statin)",
+      "Osteoarthritis in knees (mild, exacerbated by weight)",
+      "Family history of cardiovascular disease"
+    ],
+    "dietary_restrictions": [
+      "No specific food allergies reported",
+      "Prefers vegetarian meals, occasional consumption of eggs and fish",
+      "Reports difficulty limiting sugary beverages and processed snacks"
+    ],
+    "goal": "Achieve a 10-15% reduction in current body weight over 6-9 months to improve glycemic control, blood pressure, lipid profile, and reduce knee pain. Develop sustainable healthy eating habits and increase physical activity."
+  },
+  {
+    "name": "Rajesh Kumar",
+    "age": 55,
+    "gender": "Male",
+    "weight": 115.2,
+    "height": 1.75,
+    "diagnosis": "Obesity (Class III)",
+    "medical_history": [
+      "Sleep Apnea (CPAP user)",
+      "Gout (recurrent flares, on allopurinol)",
+      "Fatty Liver Disease (diagnosed via ultrasound)",
+      "History of failed weight loss attempts with fad diets"
+    ],
+    "dietary_restrictions": [
+      "Avoids red meat due to gout",
+      "Dislikes most vegetables",
+      "Frequent consumption of high-calorie takeout meals"
+    ],
+    "goal": "Achieve a 15-20% weight loss to improve sleep apnea symptoms, reduce gout flares, and mitigate fatty liver progression. Focus on portion control, balanced macronutrient intake, and incorporating more nutrient-dense foods."
+  },
+  {
+    "name": "Sarah Khan",
+    "age": 30,
+    "gender": "Female",
+    "weight": 80.0,
+    "height": 1.58,
+    "diagnosis": "Obesity (Class I)",
+    "medical_history": [
+      "Polycystic Ovary Syndrome (PCOS) - irregular periods, hirsutism",
+      "Insulin Resistance",
+      "Depression (managed with medication, reports emotional eating)"
+    ],
+    "dietary_restrictions": [
+      "No known allergies",
+      "Craves sugary foods and refined carbohydrates",
+      "Struggles with consistent meal timings due to work schedule"
+    ],
+    "goal": "Achieve a 5-10% weight loss to improve PCOS symptoms and insulin sensitivity. Develop a consistent meal plan, learn strategies to manage emotional eating, and increase physical activity."
+  },
+  {
+    "name": "Amit Patel",
+    "age": 62,
+    "gender": "Male",
+    "weight": 105.8,
+    "height": 1.70,
+    "diagnosis": "Obesity (Class II)",
+    "medical_history": [
+      "Coronary Artery Disease (post-stent placement 2 years ago)",
+      "Chronic Kidney Disease (Stage 3)",
+      "GERD (on PPI medication)",
+      "Sedentary lifestyle due to joint pain"
+    ],
+    "dietary_restrictions": [
+      "Low sodium diet recommended due to hypertension and CAD",
+      "Protein restriction might be necessary for CKD (pending nephrologist's guidance)",
+      "Avoids spicy and acidic foods due to GERD"
+    ],
+    "goal": "Achieve a 10% weight loss to reduce cardiovascular risk and improve joint pain. Implement a heart-healthy and kidney-friendly diet (as per recommendations), focusing on nutrient timing and gentle physical activity."
+  },
+  {
+    "name": "Deepa Singh",
+    "age": 38,
+    "gender": "Female",
+    "weight": 92.1,
+    "height": 1.65,
+    "diagnosis": "Obesity (Class II)",
+    "medical_history": [
+      "Hypothyroidism (on levothyroxine, stable)",
+      "Post-partum weight retention (gave birth 1 year ago)",
+      "Stress and lack of time for meal preparation"
+    ],
+    "dietary_restrictions": [
+      "No specific restrictions, but seeks convenient healthy options",
+      "Struggles with late-night snacking",
+      "Breastfeeding currently (needs adequate caloric intake for lactation)"
+    ],
+    "goal": "Achieve a gradual and sustainable weight loss of 0.5-1 kg/week while maintaining milk supply. Focus on practical meal planning, mindful eating, and incorporating physical activity into a busy schedule."
+  },
+  {
+    "name": "Vikram Reddy",
+    "age": 49,
+    "gender": "Male",
+    "weight": 95.0,
+    "height": 1.78,
+    "diagnosis": "Obesity (Class I)",
+    "medical_history": [
+      "Pre-diabetes (elevated fasting glucose and HbA1c)",
+      "High Cholesterol (borderline elevated, not on medication)",
+      "Works a desk job with long hours, limited physical activity"
+    ],
+    "dietary_restrictions": [
+      "Frequent consumption of restaurant food during lunch",
+      "Enjoys sugary drinks and desserts daily",
+      "Not accustomed to cooking at home"
+    ],
+    "goal": "Prevent progression to Type 2 Diabetes by achieving a 7-10% weight loss. Learn to make healthier food choices when eating out, reduce sugar intake, and gradually incorporate regular physical activity."
+  },
+  {
+    "name": "Meena Devi",
+    "age": 70,
+    "gender": "Female",
+    "weight": 85.3,
+    "height": 1.50,
+    "diagnosis": "Obesity (Class II)",
+    "medical_history": [
+      "Chronic Obstructive Pulmonary Disease (COPD)",
+      "Osteoporosis (on calcium and vitamin D supplements)",
+      "Limited mobility due to age and respiratory issues"
+    ],
+    "dietary_restrictions": [
+      "Difficulty chewing some tougher foods",
+      "Prefers soft, easy-to-digest meals",
+      "Experiences early satiety"
+    ],
+    "goal": "Improve respiratory function and mobility through a modest weight loss of 5-7%. Focus on nutrient-dense, easily digestible foods, small frequent meals, and gentle exercises to maintain muscle mass."
+  },
+  {
+    "name": "Arjun Das",
+    "age": 25,
+    "gender": "Male",
+    "weight": 110.0,
+    "height": 1.80,
+    "diagnosis": "Obesity (Class II)",
+    "medical_history": [
+      "No significant medical history other than obesity",
+      "Sedentary lifestyle, spends most of the day gaming",
+      "Heavy consumption of fast food and sugary drinks"
+    ],
+    "dietary_restrictions": [
+      "Very picky eater, limited variety of fruits and vegetables consumed",
+      "Prefers processed snacks and convenience foods",
+      "Drinks several liters of soda daily"
+    ],
+    "goal": "Achieve a significant weight loss of 15-20% to prevent future health complications. Educate on basic nutrition principles, gradually introduce healthier food choices, and motivate for increased physical activity."
+  },
+  {
+    "name": "Pooja Gupta",
+    "age": 16,
+    "gender": "Female",
+    "weight": 88.0,
+    "height": 1.60,
+    "diagnosis": "Obesity (Class II) - Adolescent Obesity",
+    "medical_history": [
+      "Family history of Type 2 Diabetes",
+      "Low self-esteem related to weight",
+      "Experiences bullying at school"
+    ],
+    "dietary_restrictions": [
+      "Frequent consumption of school canteen food and peer influence on food choices",
+      "Reports skipping breakfast, large dinner portions",
+      "High intake of packaged snacks and sugary drinks"
+    ],
+    "goal": "Achieve a healthy weight for age and height to improve self-esteem and reduce future health risks. Educate on healthy eating for adolescents, promote balanced meals, and encourage participation in physical activities she enjoys."
+  },
+  {
+    "name": "Gautam Iyer",
+    "age": 58,
+    "gender": "Male",
+    "weight": 102.5,
+    "height": 1.68,
+    "diagnosis": "Obesity (Class II)",
+    "medical_history": [
+      "Chronic Back Pain (due to disc bulge, exacerbated by weight)",
+      "Borderline High Blood Pressure",
+      "History of heartburn",
+      "Reports high stress levels leading to overeating"
+    ],
+    "dietary_restrictions": [
+      "Eats large portions, especially during dinner",
+      "Frequent snacking on fried foods and sweets",
+      "Works irregular shifts, leading to erratic meal timings"
+    ],
+    "goal": "Achieve a 10-12% weight loss to alleviate back pain and manage borderline hypertension. Implement strategies for stress-related eating, portion control, and healthier food choices during irregular work hours."
+  }
+]
